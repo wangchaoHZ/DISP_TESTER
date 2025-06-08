@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "D:\\WinDesktop\\DISP_TESTER\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C343B2B5-0117-48B9-945D-4982002C2F41}|DISP_TESTER\\DISP_TESTER.csproj|d:\\windesktop\\disp_tester\\disp_tester\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{C343B2B5-0117-48B9-945D-4982002C2F41}|DISP_TESTER\\DISP_TESTER.csproj|d:\\windesktop\\disp_tester\\disp_tester\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C343B2B5-0117-48B9-945D-4982002C2F41}|DISP_TESTER\\DISP_TESTER.csproj|solutionrelative:disp_tester\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C343B2B5-0117-48B9-945D-4982002C2F41}|DISP_TESTER\\DISP_TESTER.csproj|D:\\WinDesktop\\DISP_TESTER\\disp_tester\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{C343B2B5-0117-48B9-945D-4982002C2F41}|DISP_TESTER\\DISP_TESTER.csproj|solutionrelative:disp_tester\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C343B2B5-0117-48B9-945D-4982002C2F41}|DISP_TESTER\\DISP_TESTER.csproj|d:\\windesktop\\disp_tester\\disp_tester\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C343B2B5-0117-48B9-945D-4982002C2F41}|DISP_TESTER\\DISP_TESTER.csproj|solutionrelative:disp_tester\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C343B2B5-0117-48B9-945D-4982002C2F41}|DISP_TESTER\\DISP_TESTER.csproj|d:\\windesktop\\disp_tester\\disp_tester\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C343B2B5-0117-48B9-945D-4982002C2F41}|DISP_TESTER\\DISP_TESTER.csproj|solutionrelative:disp_tester\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,33 +30,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Form1.Designer.cs",
               "DocumentMoniker": "D:\\WinDesktop\\DISP_TESTER\\DISP_TESTER\\Form1.Designer.cs",
               "RelativeDocumentMoniker": "DISP_TESTER\\Form1.Designer.cs",
               "ToolTip": "D:\\WinDesktop\\DISP_TESTER\\DISP_TESTER\\Form1.Designer.cs",
               "RelativeToolTip": "DISP_TESTER\\Form1.Designer.cs",
-              "ViewState": "AgIAAMABAAAAAAAAAAAewL0BAAAwAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-06T00:23:39.21Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Form1.cs",
               "DocumentMoniker": "D:\\WinDesktop\\DISP_TESTER\\DISP_TESTER\\Form1.cs",
               "RelativeDocumentMoniker": "DISP_TESTER\\Form1.cs",
               "ToolTip": "D:\\WinDesktop\\DISP_TESTER\\DISP_TESTER\\Form1.cs",
               "RelativeToolTip": "DISP_TESTER\\Form1.cs",
-              "ViewState": "AgIAADUBAAAAAAAAAAAnwEEBAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAACsCAAAAAAAAAAAYwDkCAABFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-05T08:34:03.023Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Form1.cs [\u8BBE\u8BA1]",
               "DocumentMoniker": "D:\\WinDesktop\\DISP_TESTER\\DISP_TESTER\\Form1.cs",
               "RelativeDocumentMoniker": "DISP_TESTER\\Form1.cs",

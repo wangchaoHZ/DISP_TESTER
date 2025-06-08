@@ -54,16 +54,32 @@
             label2 = new Label();
             SEG_TIMER = new System.Windows.Forms.Timer(components);
             groupBox1 = new GroupBox();
-            panel2 = new Panel();
-            APP_TIMER = new System.Windows.Forms.Timer(components);
-            label4 = new Label();
-            panel3 = new Panel();
-            panel4 = new Panel();
-            panel5 = new Panel();
-            panel6 = new Panel();
+            button8 = new Button();
+            panel14 = new Panel();
+            panel13 = new Panel();
+            panel12 = new Panel();
+            panel11 = new Panel();
+            panel10 = new Panel();
             panel7 = new Panel();
+            panel6 = new Panel();
+            button5 = new Button();
             panel8 = new Panel();
             panel9 = new Panel();
+            panel4 = new Panel();
+            panel5 = new Panel();
+            panel3 = new Panel();
+            button7 = new Button();
+            button6 = new Button();
+            APP_TIMER = new System.Windows.Forms.Timer(components);
+            label4 = new Label();
+            groupBox2 = new GroupBox();
+            label5 = new Label();
+            panel2 = new Panel();
+            panel15 = new Panel();
+            panel16 = new Panel();
+            label6 = new Label();
+            label7 = new Label();
+            label8 = new Label();
             ((System.ComponentModel.ISupportInitialize)pictureBox6).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox5).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
@@ -79,6 +95,7 @@
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)trackBar1).BeginInit();
             groupBox1.SuspendLayout();
+            groupBox2.SuspendLayout();
             SuspendLayout();
             // 
             // button3
@@ -331,7 +348,7 @@
             label2.BackColor = Color.Transparent;
             label2.Font = new Font("黑体", 25.8000011F, FontStyle.Bold, GraphicsUnit.Point, 134);
             label2.ForeColor = Color.FromArgb(40, 40, 50);
-            label2.Location = new Point(367, 40);
+            label2.Location = new Point(524, 40);
             label2.Name = "label2";
             label2.Size = new Size(379, 44);
             label2.TabIndex = 12;
@@ -344,30 +361,180 @@
             // 
             // groupBox1
             // 
-            groupBox1.Controls.Add(panel6);
+            groupBox1.Controls.Add(button8);
+            groupBox1.Controls.Add(panel14);
+            groupBox1.Controls.Add(panel13);
+            groupBox1.Controls.Add(panel12);
+            groupBox1.Controls.Add(panel11);
+            groupBox1.Controls.Add(panel10);
             groupBox1.Controls.Add(panel7);
+            groupBox1.Controls.Add(panel6);
+            groupBox1.Controls.Add(button5);
             groupBox1.Controls.Add(panel8);
             groupBox1.Controls.Add(panel9);
             groupBox1.Controls.Add(panel4);
             groupBox1.Controls.Add(panel5);
             groupBox1.Controls.Add(panel3);
-            groupBox1.Controls.Add(panel2);
             groupBox1.Font = new Font("黑体", 16.2F, FontStyle.Bold, GraphicsUnit.Point, 134);
             groupBox1.ForeColor = Color.FromArgb(40, 40, 50);
             groupBox1.Location = new Point(42, 688);
             groupBox1.Name = "groupBox1";
-            groupBox1.Size = new Size(1027, 179);
+            groupBox1.Size = new Size(1353, 206);
             groupBox1.TabIndex = 14;
             groupBox1.TabStop = false;
-            groupBox1.Text = "按键测试项";
+            groupBox1.Text = "按键测试";
             // 
-            // panel2
+            // button8
             // 
-            panel2.BackColor = Color.Tomato;
-            panel2.Location = new Point(135, 48);
-            panel2.Name = "panel2";
-            panel2.Size = new Size(49, 50);
-            panel2.TabIndex = 0;
+            button8.BackColor = Color.FromArgb(0, 174, 239);
+            button8.FlatStyle = FlatStyle.Popup;
+            button8.Font = new Font("黑体", 15F, FontStyle.Bold, GraphicsUnit.Point, 134);
+            button8.ForeColor = Color.FromArgb(40, 40, 50);
+            button8.Location = new Point(1006, 129);
+            button8.Name = "button8";
+            button8.Size = new Size(318, 50);
+            button8.TabIndex = 18;
+            button8.Text = "停止测试按键";
+            button8.UseVisualStyleBackColor = false;
+            button8.Click += button8_Click;
+            // 
+            // panel14
+            // 
+            panel14.BackColor = SystemColors.Control;
+            panel14.Location = new Point(812, 129);
+            panel14.Name = "panel14";
+            panel14.Size = new Size(49, 50);
+            panel14.TabIndex = 2;
+            // 
+            // panel13
+            // 
+            panel13.BackColor = SystemColors.Control;
+            panel13.Location = new Point(667, 129);
+            panel13.Name = "panel13";
+            panel13.Size = new Size(49, 50);
+            panel13.TabIndex = 2;
+            // 
+            // panel12
+            // 
+            panel12.BackColor = SystemColors.Control;
+            panel12.Location = new Point(522, 129);
+            panel12.Name = "panel12";
+            panel12.Size = new Size(49, 50);
+            panel12.TabIndex = 2;
+            // 
+            // panel11
+            // 
+            panel11.BackColor = SystemColors.Control;
+            panel11.Location = new Point(377, 129);
+            panel11.Name = "panel11";
+            panel11.Size = new Size(49, 50);
+            panel11.TabIndex = 19;
+            // 
+            // panel10
+            // 
+            panel10.BackColor = SystemColors.Control;
+            panel10.Location = new Point(232, 129);
+            panel10.Name = "panel10";
+            panel10.Size = new Size(49, 50);
+            panel10.TabIndex = 18;
+            // 
+            // panel7
+            // 
+            panel7.BackColor = SystemColors.Control;
+            panel7.Location = new Point(87, 129);
+            panel7.Name = "panel7";
+            panel7.Size = new Size(49, 50);
+            panel7.TabIndex = 14;
+            // 
+            // panel6
+            // 
+            panel6.BackColor = SystemColors.Control;
+            panel6.Location = new Point(87, 63);
+            panel6.Name = "panel6";
+            panel6.Size = new Size(49, 50);
+            panel6.TabIndex = 13;
+            // 
+            // button5
+            // 
+            button5.BackColor = Color.FromArgb(0, 174, 239);
+            button5.FlatStyle = FlatStyle.Popup;
+            button5.Font = new Font("黑体", 15F, FontStyle.Bold, GraphicsUnit.Point, 134);
+            button5.ForeColor = Color.FromArgb(40, 40, 50);
+            button5.Location = new Point(1006, 63);
+            button5.Name = "button5";
+            button5.Size = new Size(318, 50);
+            button5.TabIndex = 12;
+            button5.Text = "启动测试按键";
+            button5.UseVisualStyleBackColor = false;
+            button5.Click += button5_Click;
+            // 
+            // panel8
+            // 
+            panel8.BackColor = SystemColors.Control;
+            panel8.Location = new Point(812, 63);
+            panel8.Name = "panel8";
+            panel8.Size = new Size(49, 50);
+            panel8.TabIndex = 5;
+            // 
+            // panel9
+            // 
+            panel9.BackColor = SystemColors.Control;
+            panel9.Location = new Point(667, 63);
+            panel9.Name = "panel9";
+            panel9.Size = new Size(49, 50);
+            panel9.TabIndex = 4;
+            // 
+            // panel4
+            // 
+            panel4.BackColor = SystemColors.Control;
+            panel4.Location = new Point(522, 63);
+            panel4.Name = "panel4";
+            panel4.Size = new Size(49, 50);
+            panel4.TabIndex = 3;
+            // 
+            // panel5
+            // 
+            panel5.BackColor = SystemColors.Control;
+            panel5.Location = new Point(377, 63);
+            panel5.Name = "panel5";
+            panel5.Size = new Size(49, 50);
+            panel5.TabIndex = 2;
+            // 
+            // panel3
+            // 
+            panel3.BackColor = SystemColors.Control;
+            panel3.Location = new Point(232, 63);
+            panel3.Name = "panel3";
+            panel3.Size = new Size(49, 50);
+            panel3.TabIndex = 1;
+            // 
+            // button7
+            // 
+            button7.BackColor = Color.FromArgb(0, 174, 239);
+            button7.FlatStyle = FlatStyle.Popup;
+            button7.Font = new Font("黑体", 15F, FontStyle.Bold, GraphicsUnit.Point, 134);
+            button7.ForeColor = Color.FromArgb(40, 40, 50);
+            button7.Location = new Point(29, 335);
+            button7.Name = "button7";
+            button7.Size = new Size(231, 58);
+            button7.TabIndex = 17;
+            button7.Text = "停止SPI测试";
+            button7.UseVisualStyleBackColor = false;
+            button7.Click += button7_Click;
+            // 
+            // button6
+            // 
+            button6.BackColor = Color.FromArgb(0, 174, 239);
+            button6.FlatStyle = FlatStyle.Popup;
+            button6.Font = new Font("黑体", 15F, FontStyle.Bold, GraphicsUnit.Point, 134);
+            button6.ForeColor = Color.FromArgb(40, 40, 50);
+            button6.Location = new Point(29, 265);
+            button6.Name = "button6";
+            button6.Size = new Size(231, 58);
+            button6.TabIndex = 13;
+            button6.Text = "启动SPI测试";
+            button6.UseVisualStyleBackColor = false;
+            button6.Click += button6_Click;
             // 
             // APP_TIMER
             // 
@@ -380,84 +547,109 @@
             label4.BackColor = Color.Transparent;
             label4.Font = new Font("黑体", 25.8000011F, FontStyle.Bold, GraphicsUnit.Point, 134);
             label4.ForeColor = Color.FromArgb(40, 40, 50);
-            label4.Location = new Point(96, 40);
+            label4.Location = new Point(262, 40);
             label4.Name = "label4";
             label4.Size = new Size(919, 44);
             label4.TabIndex = 15;
             label4.Text = "软件免费使用时间到，请申请解除软件限制！";
             // 
-            // panel3
+            // groupBox2
             // 
-            panel3.BackColor = Color.Tomato;
-            panel3.Location = new Point(218, 48);
-            panel3.Name = "panel3";
-            panel3.Size = new Size(49, 50);
-            panel3.TabIndex = 1;
+            groupBox2.Controls.Add(label8);
+            groupBox2.Controls.Add(label7);
+            groupBox2.Controls.Add(label6);
+            groupBox2.Controls.Add(panel2);
+            groupBox2.Controls.Add(button6);
+            groupBox2.Controls.Add(panel15);
+            groupBox2.Controls.Add(button7);
+            groupBox2.Controls.Add(panel16);
+            groupBox2.Controls.Add(label5);
+            groupBox2.Font = new Font("黑体", 16.2F, FontStyle.Bold);
+            groupBox2.Location = new Point(1106, 230);
+            groupBox2.Name = "groupBox2";
+            groupBox2.Size = new Size(289, 438);
+            groupBox2.TabIndex = 18;
+            groupBox2.TabStop = false;
+            groupBox2.Text = "SPI接口测试";
             // 
-            // panel4
+            // label5
             // 
-            panel4.BackColor = Color.Tomato;
-            panel4.Location = new Point(381, 48);
-            panel4.Name = "panel4";
-            panel4.Size = new Size(49, 50);
-            panel4.TabIndex = 3;
+            label5.AutoSize = true;
+            label5.Font = new Font("黑体", 13.8F, FontStyle.Bold, GraphicsUnit.Point, 134);
+            label5.Location = new Point(29, 223);
+            label5.Name = "label5";
+            label5.Size = new Size(124, 23);
+            label5.TabIndex = 6;
+            label5.Text = "SPI未测试";
             // 
-            // panel5
+            // panel2
             // 
-            panel5.BackColor = Color.Tomato;
-            panel5.Location = new Point(298, 48);
-            panel5.Name = "panel5";
-            panel5.Size = new Size(49, 50);
-            panel5.TabIndex = 2;
+            panel2.BackColor = SystemColors.Control;
+            panel2.Location = new Point(189, 165);
+            panel2.Name = "panel2";
+            panel2.Size = new Size(49, 50);
+            panel2.TabIndex = 19;
             // 
-            // panel6
+            // panel15
             // 
-            panel6.BackColor = Color.Tomato;
-            panel6.Location = new Point(706, 48);
-            panel6.Name = "panel6";
-            panel6.Size = new Size(49, 50);
-            panel6.TabIndex = 7;
+            panel15.BackColor = SystemColors.Control;
+            panel15.Location = new Point(189, 101);
+            panel15.Name = "panel15";
+            panel15.Size = new Size(49, 50);
+            panel15.TabIndex = 20;
             // 
-            // panel7
+            // panel16
             // 
-            panel7.BackColor = Color.Tomato;
-            panel7.Location = new Point(623, 48);
-            panel7.Name = "panel7";
-            panel7.Size = new Size(49, 50);
-            panel7.TabIndex = 6;
-            panel7.Paint += panel7_Paint;
+            panel16.BackColor = SystemColors.Control;
+            panel16.Location = new Point(189, 37);
+            panel16.Name = "panel16";
+            panel16.Size = new Size(49, 50);
+            panel16.TabIndex = 21;
             // 
-            // panel8
+            // label6
             // 
-            panel8.BackColor = Color.Tomato;
-            panel8.Location = new Point(543, 48);
-            panel8.Name = "panel8";
-            panel8.Size = new Size(49, 50);
-            panel8.TabIndex = 5;
-            //panel8.Paint += this.panel8_Paint;
+            label6.AutoSize = true;
+            label6.Font = new Font("黑体", 13.8F, FontStyle.Bold, GraphicsUnit.Point, 134);
+            label6.Location = new Point(50, 51);
+            label6.Name = "label6";
+            label6.Size = new Size(101, 23);
+            label6.TabIndex = 22;
+            label6.Text = "SPI-SCL";
             // 
-            // panel9
+            // label7
             // 
-            panel9.BackColor = Color.Tomato;
-            panel9.Location = new Point(460, 48);
-            panel9.Name = "panel9";
-            panel9.Size = new Size(49, 50);
-            panel9.TabIndex = 4;
-            //panel9.Paint += this.panel9_Paint;
+            label7.AutoSize = true;
+            label7.Font = new Font("黑体", 13.8F, FontStyle.Bold, GraphicsUnit.Point, 134);
+            label7.Location = new Point(50, 115);
+            label7.Name = "label7";
+            label7.Size = new Size(101, 23);
+            label7.TabIndex = 23;
+            label7.Text = "SPI-SDA";
+            // 
+            // label8
+            // 
+            label8.AutoSize = true;
+            label8.Font = new Font("黑体", 13.8F, FontStyle.Bold, GraphicsUnit.Point, 134);
+            label8.Location = new Point(50, 179);
+            label8.Name = "label8";
+            label8.Size = new Size(101, 23);
+            label8.TabIndex = 24;
+            label8.Text = "SPI-SDO";
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(9F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.DeepSkyBlue;
-            ClientSize = new Size(1108, 879);
-            Controls.Add(label4);
+            ClientSize = new Size(1435, 919);
+            Controls.Add(groupBox2);
             Controls.Add(groupBox1);
             Controls.Add(label2);
             Controls.Add(button4);
             Controls.Add(comboBox1);
             Controls.Add(button3);
             Controls.Add(panel1);
+            Controls.Add(label4);
             Name = "Form1";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "显示板测试上位机";
@@ -478,6 +670,8 @@
             panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)trackBar1).EndInit();
             groupBox1.ResumeLayout(false);
+            groupBox2.ResumeLayout(false);
+            groupBox2.PerformLayout();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -509,13 +703,29 @@
         private GroupBox groupBox1;
         private System.Windows.Forms.Timer APP_TIMER;
         private Label label4;
-        private Panel panel2;
-        private Panel panel6;
-        private Panel panel7;
         private Panel panel8;
         private Panel panel9;
         private Panel panel4;
         private Panel panel5;
         private Panel panel3;
+        private Button button6;
+        private Button button5;
+        private Button button7;
+        private Panel panel7;
+        private Panel panel6;
+        private Button button8;
+        private Panel panel14;
+        private Panel panel13;
+        private Panel panel12;
+        private Panel panel11;
+        private Panel panel10;
+        private GroupBox groupBox2;
+        private Label label5;
+        private Panel panel2;
+        private Panel panel15;
+        private Panel panel16;
+        private Label label8;
+        private Label label7;
+        private Label label6;
     }
 }

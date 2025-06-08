@@ -36,3 +36,4 @@ D:\WinDesktop\DISP_TESTER\DISP_TESTER\bin\Debug\net8.0-windows\runtimes\osx-x64\
 D:\WinDesktop\DISP_TESTER\DISP_TESTER\bin\Debug\net8.0-windows\runtimes\unix\lib\net8.0\System.IO.Ports.dll
 D:\WinDesktop\DISP_TESTER\DISP_TESTER\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.IO.Ports.dll
 D:\WinDesktop\DISP_TESTER\DISP_TESTER\obj\Debug\net8.0-windows\DISP_TES.B959C0BC.Up2Date
+D:\WinDesktop\DISP_TESTER\DISP_TESTER\obj\Debug\net8.0-windows\DISP_TESTER.sourcelink.json
